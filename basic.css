@@ -60,8 +60,8 @@
     height: 20vw;
     border-radius: 50%;
     background-color: rgb(5, 91, 55, 10%);
-    bottom: 5vw;
-    right: 5vw ;
+    bottom: 0vw;
+    right: 0vw ;
     z-index: -1;
 
 }
