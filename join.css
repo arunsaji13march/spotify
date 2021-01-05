@@ -74,7 +74,15 @@
     bottom: 5vw;
     left: 3vw ;
     z-index: -1;
+    animation-name: colors;
+    animation-duration: 10s;
 
+}
+
+@keyframes colors{
+    from{background-color: rgb(199, 3, 216, 10%);}
+    to{background-color: rgb(200, 124, 9, 10%);}
+    to{background-color: rgb(5, 91, 55, 10%);}
 }
 .home-page-circle-2{
     position: absolute;
@@ -85,6 +93,8 @@
     bottom: 0vw;
     right: 0vw ;
     z-index: -1;
+    animation-name: colors;
+    animation-duration: 10s;
 
 }
 .home-page-circle-3{
@@ -96,5 +106,7 @@
     top: 2vw;
     right: 25vw ;
     z-index: -1;
+    animation-name: colors;
+    animation-duration: 10s;
 
 }
